@@ -1,23 +1,20 @@
-# Nuxt Minimal Starter
+# Alise Santos
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This website is a project made for Alise Santos. It is a portfolio site where people that want to get to know Alise Santos more can get information about her.
+
+I made this project open source so people can use the code that i used for creating this project. Feel free to give me feedback on my code or help developing it!
+
+## For developers
+
+I use the Yarn package manager to develop this project but feel free to use another package manager for this project. This project is made with the Nuxt framework and i use tailwind with DaisyUi for easier front end development.
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +22,8 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +31,13 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
