@@ -10,7 +10,7 @@ html {
 }
 
 main {
-  @apply flex justify-center items-center p-10 gap-10;
+  @apply flex flex-col justify-center items-center p-10 gap-20;
 }
 
 h1 {
@@ -27,6 +27,14 @@ h3 {
 
 h6 {
   @apply text-base font-medium mb-2;
+}
+
+p {
+  @apply mb-4;
+}
+
+li {
+  @apply mb-2;
 }
 
 @plugin "daisyui";

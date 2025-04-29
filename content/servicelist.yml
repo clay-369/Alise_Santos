@@ -1,0 +1,13 @@
+services:
+  - description: "Het omgaan met vastgestelde problematieken in het dagelijks functioneren"
+  - description: "Het verbeteren van de sociale en emotionele vaardigheden"
+  - description: "Aanleren en/of behouden van een dagritme"
+  - description: "Het voeren van de regie over het eigen leven"
+  - description: "Het aanbrengen van structuur"
+  - description: "Het opbouwen en onderhouden van sociale netwerken"
+  - description: "Contact onderhouden en omgaan met andere instanties"
+  - description: "Het zoeken naar een zinvolle dagbesteding"
+  - description: "Het structureren en uitvoeren van huishoudelijke taken"
+  - description: "Administratieve werkzaamheden"
+  - description: "Reizen met het openbaar vervoer"
+  - description: "Het verbeteren van de zelfredzaamheid en zelfstandigheid"
