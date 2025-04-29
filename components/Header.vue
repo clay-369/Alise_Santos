@@ -22,26 +22,26 @@
           tabindex="0"
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
+          <li v-for="link in header.links" :key="link.title">
+            <a :href="link.url">{{ link.title }}</a>
           </li>
-          <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">Alise Santos</a>
+      <a class="btn btn-ghost text-xl">{{ header.title }}</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
+        <li v-for="link in header.links" :key="link.title">
+          <a :href="link.url">{{ link.title }}</a>
+        </li>
       </ul>
     </div>
-    <div class="navbar-end">
-      <a class="btn">Button</a>
-    </div>
+    <div class="navbar-end"></div>
   </div>
 </template>
+
+<script setup>
+const { data: header } = await useAsyncData("header", () => {
+  return queryCollection("header").first();
+});
+</script>
