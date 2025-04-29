@@ -36,12 +36,24 @@
         </li>
       </ul>
     </div>
-    <div class="navbar-end"></div>
+    <div class="navbar-end">
+      <ul class="menu menu-horizontal px-1">
+        <li v-for="icon in icons.icons" :key="icon.name">
+          <a :href="icon.url">
+            <Icon :name="icon.icon" />
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script setup>
 const { data: header } = await useAsyncData("header", () => {
   return queryCollection("header").first();
+});
+
+const { data: icons } = await useAsyncData("icons", () => {
+  return queryCollection("icons").first();
 });
 </script>

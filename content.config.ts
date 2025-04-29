@@ -15,5 +15,18 @@ export default defineContentConfig({
         ),
       }),
     }),
+    icons: defineCollection({
+      type: "data",
+      source: "icons/icons.yml",
+      schema: z.object({
+        icons: z.array(
+          z.object({
+            name: z.string(),
+            icon: z.string(),
+            url: z.string(),
+          })
+        ),
+      }),
+    }),
   },
 });
