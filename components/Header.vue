@@ -37,13 +37,13 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <ul class="menu menu-horizontal px-1">
+      <!-- <ul class="menu menu-horizontal px-1">
         <li v-for="icon in icons.icons" :key="icon.name">
           <a :href="icon.url">
             <Icon :name="icon.icon" />
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </template>

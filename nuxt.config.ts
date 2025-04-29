@@ -8,4 +8,10 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ["~/assets/css/main.css"],
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
 });
