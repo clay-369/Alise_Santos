@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-row gap-10 items-center">
-    <div class="w-1/2">
+  <section class="flex flex-col lg:flex-row gap-10 items-center">
+    <div class="w-full lg:w-1/2">
       <h2>Over mij</h2>
       <h3>Mijn naam is Alicia Soares</h3>
       <p>
