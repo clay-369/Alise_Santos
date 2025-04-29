@@ -30,7 +30,7 @@ export default defineContentConfig({
     }),
     services: defineCollection({
       type: "data",
-      source: "servicelist.yml",
+      source: "services.yml",
       schema: z.object({
         services: z.array(
           z.object({
