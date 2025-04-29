@@ -1,7 +1,8 @@
 <template>
-  <section class="flex flex-row gap-10">
-    <div>
+  <section class="flex flex-row gap-10 items-center">
+    <div class="w-1/2">
       <h2>Over mij</h2>
+      <h3>Mijn naam is Alicia Soares</h3>
       <p>
         Mijn naam is Alicia Soares, ik bied hulp vanuit mijn hart. Ik kijk samen
         met jou wat je nodig hebt om je doel te bereiken. Met meer dat 20 jaar
