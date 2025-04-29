@@ -4,7 +4,7 @@ export default defineContentConfig({
   collections: {
     header: defineCollection({
       type: "data",
-      source: "header/header.yml",
+      source: "header.yml",
       schema: z.object({
         title: z.string(),
         links: z.array(
@@ -17,7 +17,7 @@ export default defineContentConfig({
     }),
     icons: defineCollection({
       type: "data",
-      source: "icons/icons.yml",
+      source: "icons.yml",
       schema: z.object({
         icons: z.array(
           z.object({
