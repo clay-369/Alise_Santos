@@ -39,5 +39,17 @@ export default defineContentConfig({
         ),
       }),
     }),
+    approach: defineCollection({
+      type: "data",
+      source: "approach.yml",
+      schema: z.object({
+        approach: z.array(
+          z.object({
+            title: z.string(),
+            description: z.string(),
+          })
+        ),
+      }),
+    }),
   },
 });
