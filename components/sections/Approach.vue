@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col lg:flex-none gap-10 items-center">
-    <div class="w-full lg:w-1/2">
+    <div class="w-full lg:w-1/2 text-center">
       <h2>Aanpak</h2>
       <h3>Persoonlijke begeleiding op maat</h3>
     </div>

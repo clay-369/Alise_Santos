@@ -51,5 +51,17 @@ export default defineContentConfig({
         ),
       }),
     }),
+    contact: defineCollection({
+      type: "data",
+      source: "contact.yml",
+      schema: z.object({
+        contact: z.array(
+          z.object({
+            title: z.string(),
+            description: z.string(),
+          })
+        ),
+      }),
+    }),
   },
 });

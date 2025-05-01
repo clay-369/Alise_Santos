@@ -1,0 +1,7 @@
+contact:
+  - title: Telefoon
+    description: "+31612345678"
+    icon: "uil:phone"
+  - title: Email
+    description: alice@gmail.nl
+    icon: "uil:envelope"
