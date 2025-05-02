@@ -6,7 +6,7 @@
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
       <div
-        class="card card-border bg-base-200 w-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101 hover:cursor-pointer"
+        class="card card-border bg-base-200 w-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101 hover:shadow-lg hover:cursor-pointer"
         v-for="approach in approach.approach"
       >
         <div class="card-body">

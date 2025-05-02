@@ -63,5 +63,17 @@ export default defineContentConfig({
         ),
       }),
     }),
+    testimonials: defineCollection({
+      type: "data",
+      source: "testimonials.yml",
+      schema: z.object({
+        testimonials: z.array(
+          z.object({
+            title: z.string(),
+            description: z.string(),
+          })
+        ),
+      }),
+    }),
   },
 });

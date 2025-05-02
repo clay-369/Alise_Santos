@@ -5,6 +5,7 @@
     <Services />
     <Approach />
     <Contact />
+    <Testimonials />
   </main>
   <Footer />
 </template>
