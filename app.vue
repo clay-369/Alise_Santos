@@ -6,6 +6,7 @@
     <Approach />
     <Contact />
     <Testimonials />
+    <Blogs />
     <Faq />
     <Privacy />
   </main>

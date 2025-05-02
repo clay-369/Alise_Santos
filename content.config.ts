@@ -87,5 +87,20 @@ export default defineContentConfig({
         ),
       }),
     }),
+    blogs: defineCollection({
+      type: "data",
+      source: "blogs.yml",
+      schema: z.object({
+        blogs: z.array(
+          z.object({
+            title: z.string(),
+            description: z.string(),
+            author: z.string(),
+            date: z.string(),
+            image: z.string(),
+          })
+        ),
+      }),
+    }),
   },
 });
