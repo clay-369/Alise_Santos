@@ -7,6 +7,7 @@
     <Contact />
     <Testimonials />
     <Faq />
+    <Privacy />
   </main>
   <Footer />
 </template>
