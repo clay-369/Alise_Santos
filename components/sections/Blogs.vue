@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col gap-10 items-center">
+  <section class="flex flex-col gap-10 items-center" id="blogs">
     <div class="w-full text-center">
       <h2>Blogs</h2>
       <h3>Lees meer over opvoedkundige begeleiding</h3>

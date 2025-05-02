@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar sticky top-0 z-50 bg-base-100 shadow-sm">
+  <div class="navbar sticky top-0 z-50 bg-base-100 shadow-sm" id="header">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -22,17 +22,19 @@
           tabindex="0"
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
         >
-          <li v-for="link in header.links" :key="link.title">
-            <a :href="link.url">{{ link.title }}</a>
+          <li v-for="link in header.links">
+            <NuxtLink :to="link.url">{{ link.title }}</NuxtLink>
           </li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">{{ header.title }}</a>
+      <NuxtLink class="btn btn-ghost text-xl" to="/#about">{{
+        header.title
+      }}</NuxtLink>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li v-for="link in header.links" :key="link.title">
-          <a :href="link.url">{{ link.title }}</a>
+        <li v-for="link in header.links">
+          <NuxtLink :to="link.url">{{ link.title }}</NuxtLink>
         </li>
       </ul>
     </div>

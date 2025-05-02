@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-none gap-10 items-center">
+  <section class="flex flex-col lg:flex-none gap-10 items-center" id="faq">
     <div class="w-full lg:w-1/2 text-center">
       <h2>Faq</h2>
       <h3>Veelgestelde vragen</h3>

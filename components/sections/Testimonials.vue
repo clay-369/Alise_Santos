@@ -1,5 +1,8 @@
 <template>
-  <section class="flex flex-col lg:flex-none gap-10 items-center">
+  <section
+    class="flex flex-col lg:flex-none gap-10 items-center"
+    id="testimonials"
+  >
     <div class="w-full lg:w-1/2 text-center">
       <h2>Testimonials</h2>
       <h3>Wat zeggen mijn klanten over mij</h3>

@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-row gap-10 items-center">
+  <section class="flex flex-col lg:flex-row gap-10 items-center" id="contact">
     <div class="w-full lg:w-1/2 text-center">
       <h2>Contact</h2>
       <h3>Laten we samen in gesprek gaan</h3>

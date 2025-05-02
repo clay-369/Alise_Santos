@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-row gap-10 items-center">
+  <section class="flex flex-col lg:flex-row gap-10 items-center" id="services">
     <div>
       <img src="~/assets/images/serviceimage.jpg" alt="Alicia Soares" />
     </div>

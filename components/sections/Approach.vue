@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-none gap-10 items-center">
+  <section class="flex flex-col lg:flex-none gap-10 items-center" id="approach">
     <div class="w-full lg:w-1/2 text-center">
       <h2>Aanpak</h2>
       <h3>Persoonlijke begeleiding op maat</h3>

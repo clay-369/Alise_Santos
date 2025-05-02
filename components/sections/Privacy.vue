@@ -1,5 +1,8 @@
 <template>
-  <section class="flex flex-col lg:flex-row gap-10 items-center justify-center">
+  <section
+    class="flex flex-col lg:flex-row gap-10 items-center justify-center"
+    id="privacy"
+  >
     <div class="w-full lg:w-1/2">
       <h2>Privacy beleid</h2>
       <h3>Hoe wij omgaan met jouw gegevens</h3>
