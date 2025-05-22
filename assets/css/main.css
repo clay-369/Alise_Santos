@@ -3,6 +3,11 @@
 
 @theme {
   --font-inter: "Inter", sans-serif;
+  --color-puzzle-yellow: rgb(255, 220, 98);
+  --color-puzzle-purple: rgb(180, 132, 188);
+  --color-puzzle-blue: rgb(98, 178, 234);
+  --color-puzzle-green: rgb(106, 188, 112);
+  --color-logo-blue: rgb(97 184 199);
 }
 
 html {
@@ -44,7 +49,7 @@ li {
   default: true;
   prefersdark: true;
   color-scheme: "light";
-  --color-base-100: oklch(98% 0 0);
+  --color-base-100: rgb(251, 235, 250);
   --color-base-200: oklch(96% 0.001 286.375);
   --color-base-300: oklch(92% 0.004 286.32);
   --color-base-content: oklch(21% 0.006 285.885);

@@ -42,7 +42,7 @@
       <ul class="menu menu-horizontal px-1">
         <li v-for="icon in icons.icons" :key="icon.name">
           <a :href="icon.url">
-            <Icon :name="icon.icon" />
+            <Icon :name="icon.icon" class="text-logo-blue" />
           </a>
         </li>
       </ul>

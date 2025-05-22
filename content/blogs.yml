@@ -2,18 +2,21 @@ blogs:
   - title: "Schermtijd en kinderen: Hoe vind je de juiste balans?"
     description: "In deze digitale tijd worstelen veel ouders met de vraag hoeveel schermtijd gezond is voor hun kinderen. We bespreken de laatste inzichten en geven praktische tips voor het maken van gezonde afspraken rond schermgebruik."
     author: "Krista van Dalen"
+    color: bg-puzzle-yellow
     date: "2024-03-10"
     image: "https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     link: "https://www.mamaliefde.nl/blog/schermtijd-kinderen-regels-tips/"
   - title: "Omgaan met driftbuien: Een positieve benadering"
     description: "Driftbuien zijn een normaal onderdeel van de ontwikkeling van peuters en kleuters. Lees hoe je hier rustig en effectief mee om kunt gaan en hoe je je kind kunt helpen zijn emoties te reguleren."
     author: "Tischa Neve"
+    color: bg-puzzle-purple
     date: "2024-02-25"
     image: "https://images.unsplash.com/photo-1602001313216-95c9f42a1207?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     link: "https://www.tischaneve.nl/driftbuien/"
   - title: "Mindful ouderschap in een drukke wereld"
     description: "Ontdek hoe mindfulness technieken kunnen helpen om meer bewust en ontspannen om te gaan met de uitdagingen van het ouderschap. Met concrete oefeningen die je direct kunt toepassen."
     author: "Susan Bögels"
+    color: bg-puzzle-green
     date: "2024-02-05"
     image: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     link: "https://www.susanbogels.com/mindful-parenting/"
