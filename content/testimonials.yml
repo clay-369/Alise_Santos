@@ -1,10 +1,13 @@
 testimonials:
   - name: Xiomara Rodriguez
+    color: bg-puzzle-purple
     testimonial: "Door de begeleiding van Alise heb ik geleerd om beter te communiceren met mijn tieners. De sfeer thuis is nu veel positiever en we begrijpen elkaar beter."
     image: "/img/testimonials/woman1.jpg"
   - name: Miguel Martina
+    color: bg-puzzle-green
     testimonial: "Als alleenstaande vader had ik moeite met het stellen van grenzen. Alise heeft me geholpen om structuur aan te brengen en nu loopt het gezin als een goed geoliede machine."
     image: "/img/testimonials/men2.jpeg"
   - name: Yolanda Zimmerman
+    color: bg-puzzle-yellow
     testimonial: "De praktische tips en ondersteuning die we hebben gekregen waren goud waard. Onze kinderen zijn rustiger geworden en we genieten weer van elkaar als gezin."
     image: "/img/testimonials/woman3.jpeg"

@@ -7,7 +7,7 @@
     </p>
     <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
       <a v-for="icon in icons.icons" :key="icon.name" :href="icon.url">
-        <Icon :name="icon.icon" />
+        <Icon :name="icon.icon" class="text-logo-blue" />
       </a>
     </nav>
   </footer>
